@@ -1,0 +1,342 @@
+.logo {
+	width: 90px;
+}
+.nav-color {
+	background-color:rgba(1,0,0,0.5);
+	
+
+}
+.nav-link {
+	
+	font-size: 20px;
+	margin-right: 35px;
+	font-family: Quicksand-Light;
+	cursor: pointer;
+
+}
+.nav-item{
+	color: #c7b4b4;
+}
+.nav-item:hover {
+	color:  #ffffff;
+}
+.section{
+	padding:30px 0; 
+}
+.section h3 {
+	font-family: 'BPG Arial Caps';
+	letter-spacing: 10px;
+	line-height: 22px;
+	margin-bottom: 45px;
+	color:#564848;
+}
+.band{
+	font-family:Quicksand-LightItalic;
+	color:  #887979;
+	font-style: italic;
+}
+
+.bg-color {
+	background-color: #2d2d30;
+	padding: 70px 0; 
+
+}
+
+.text1 {
+	padding: 20px 0; 
+	white-space: nowrap;
+	text-align: center;
+	font-family:Quicksand-LightItalic;
+	color: #ffffff;
+	font-weight: 400;
+}
+.text1:hover {
+	background-color:rgba(1,0,0,0.1);
+
+}
+
+.contact-text {
+	color: #887979;
+	width:250px;
+
+
+}
+a:hover{
+ text-decoration: none !important; 
+}
+
+	
+.call {
+	height: 300px;
+	background-size: cover;
+	background-position:all;
+	position: relative;
+
+
+}
+
+.call-text{
+	background-color:rgba(1,0,0,0.5);
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	left: 0;
+	font-family:'BPG Arial Caps';
+	letter-spacing: 3px;
+	line-height: 12px;
+	padding: 90px  0;
+	font-weight: 700;
+	color:#ffffff;
+	transition: all  .3s;
+	margin: auto;
+
+
+}
+.call-text:hover {
+	opacity: 1;
+	transform:scale(1.0,1.1);
+
+
+	/*border:15px solid #2d2d30;*/
+}
+
+.cover {
+	background-image: url(../img/cover.jpg);
+    width: 100%;
+    min-height: 400px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+ 
+}
+.zoom {
+	margin-top: 15px; 
+	overflow:hidden;
+	border-radius: 20px;
+}
+.bandpoto {
+	width: 100%;
+	border-radius: 20px;
+	opacity: 0.5;
+	transition: transform .3s;
+
+}
+.bandpoto:hover {
+	opacity: 1;
+	transform: scale(1.2,1.2);
+	cursor: pointer;
+}
+
+.footer {
+	background-color:rgba(1,0,0,0.7);
+	padding: 15px;
+	
+
+}
+.social i{
+		font-size: 25px;
+		color: #ffffff;
+		padding: 10px;
+}
+.social i:hover {
+		color: #c7b4b4;
+}
+
+
+
+.hidden{
+     opacity:0;
+}
+.visible{
+     opacity:1;
+}
+/* Font Family
+================================================== */
+
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+
+
+/* Global Styles
+================================================== */
+
+
+
+* {
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+-webkit-tap-highlight-color:transparent;
+}
+
+
+/* Setup
+================================================== */
+
+.container { position:relative; margin:0 auto; max-width:800px; width:100%; }
+.column { width:inherit; }
+
+
+/* Typography / Links
+================================================== */
+
+#songs > p { color:#fff; display:block; font-size:.9rem; font-weight:400; margin:0 0 2px; }
+
+a,a:visited { color:#8cc3e6; outline:0; text-decoration:underline; }
+a:hover,a:focus { color:#bbdef5; }
+p a,p a:visited { line-height:inherit; }
+
+
+/* Misc.
+================================================== */
+
+.add-bottom { margin-bottom:2rem !important; }
+.left { float:left; }
+.right { float:right; }
+.center { text-align:center; }
+
+
+/* Audio Player Styles
+================================================== */
+
+audio {
+margin:0 15px 0 14px;
+width: 100%;
+}
+
+#mainwrap {}
+
+#audiowrap,
+#plwrap {
+margin:0 auto;
+}
+
+#tracks {
+position:relative;
+text-align:center;
+}
+
+#nowPlay {
+display:inline;
+}
+
+#npAction {
+padding:21px;
+position:absolute;
+}
+
+#npTitle {
+padding:21px;
+}
+
+#plList li {
+cursor:pointer;
+display:block;
+margin:0;
+padding:21px 0;
+}
+
+#plList li:hover {
+background-color:rgba(0,0,0,.1);
+}
+
+.plItem {
+position:relative;
+}
+
+.plTitle {
+left:50px;
+overflow:hidden;
+position:absolute;
+right:65px;
+text-overflow:ellipsis;
+top:0;
+white-space:nowrap;
+}
+
+.plNum {
+padding-left:21px;
+width:25px;
+}
+
+.plLength {
+padding-left:21px;
+position:absolute;
+right:21px;
+top:0;
+}
+
+.plSel,
+.plSel:hover {
+background-color:rgba(0,0,0,.3);
+/*color:#fff;*/
+cursor:default !important;
+}
+
+a[id^="btn"] {
+border-radius:3px;
+color:#fff;
+cursor:pointer;
+display:inline-block;
+font-size:2rem;
+line-height:.5;
+margin:0 20px 20px;
+padding:10px;
+text-decoration:none;
+transition:background .3s ease;
+width:40px;
+}
+
+a[id^="btn"]:last-child {
+margin-left:-4px;
+}
+
+a[id^="btn"]:hover,
+a[id^="btn"]:active {
+background-color:rgba(0,0,0,.1);
+color:#fff;
+}
+
+a[id^="btn"]::-moz-focus-inner {
+border:0;
+padding:0;
+}
+
+
+/* Plyr Overrides
+================================================== */
+
+.plyr--audio .plyr__controls {
+background-color:transparent;
+border:none;
+color:#fff;
+padding:20px 20px 20px 13px;
+width:100%;
+}
+
+.plyr--audio .plyr__controls button.tab-focus:focus,
+.plyr--audio .plyr__controls button:hover,
+.plyr__play-large {
+background:rgba(0,0,0,.1);
+}
+
+.plyr__progress--played, .plyr__volume--display {
+color:rgba(0,0,0,.1);
+}
+
+.plyr--audio .plyr__progress--buffer,
+.plyr--audio .plyr__volume--display {
+background:rgba(0,0,0,.1);
+}
+
+.plyr--audio .plyr__progress--buffer {
+color:rgba(0,0,0,.1);
+}
+
+
+/* Media Queries
+================================================== */
+
+@media only screen and (max-width:850px) {
+    #nowPlay { display:none; }
+}

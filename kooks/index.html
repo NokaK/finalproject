@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kooks</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+  <link rel="stylesheet" type="text/css" href="scroll-effects/assets/animate.css" />
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+</head>
+<body id="home">
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-100" src="img/slide1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/slide2.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-100" src="img/slide3.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators"   role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon "  aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon"   aria-hidden="true"></span>
+    <span class="sr-only" >Next</span>
+  </a>
+</div>
+
+<header>
+<nav class="navbar navbar-expand-lg  
+ fixed-top nav-color"  >
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
+    <span class="navbar-toggler-icon" style="color: #ffffff;font-size: 24px"><i class="fa fa-bars" aria-hidden="true"></i></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav" >
+      <li class="nav-item ">
+        <a class="nav-link "    id="homeLink">Home <span class="sr-only" >(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " id="bandLink" >Band</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" id="songsLink">Songs</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" id="photosLink">Photos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="tourLink">Tour</a>  
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="contactLink">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
+<section class="section" Id="band"> 
+    <div class="container text-center">
+      <div class="post">
+        <h3>THE KOOKS </h3>
+        <p class="band">The Kooks (Swedish band)</p>
+        <p class="band">
+            The Kooks are an English pop rock band formed in 2004 in Brighton.The band currently consists of Luke Pritchard (vocals/rhythm guitar), Hugh Harris (lead guitar/synth), Alexis Nunez (drums), and Peter Denton (bass guitar). The original bassist was Max Rafferty, and the founding drummer was Paul Garred. The lineup of the band remained constant until the departure of Rafferty in 2008. Dan Logan served as a temporary replacement, until Peter Denton joined the band permanently in October 2008. Early in 2010, Pritchard announced the departure of drummer Paul Garred, due to a nerve problem in his arm. Late in the year, Garred rejoined for studio sessions, however Chris Prendergast played drums when the band played live. Garred finally left in November 2011 after the release of their third album, Junk of the Heart.
+        </p>
+     
+    </div>
+        <div class="post1">
+        <div class="row members ">
+           <div class="col-md-3 col-sm-6" style="margin-top: 20px" >
+             <div  class="call" style="background-image:url(img/luke.jpg);"></div>
+              <div class="call-text">
+                <p >Luke Pritchard</p>
+                <p>Vocals/rhythm guitar</p>
+              </div>
+           </div>
+           <div class="col-md-3 col-sm-6"  style="margin-top: 20px">
+             <div class="call" style="background-image:url(img/huge.jpg);"></div>
+             <div class="call-text">
+                <p>Hugh Harris</p>
+                <p>Lead guitar/synthr</p>  
+              </div>
+           </div>
+           <div class="col-md-3 col-sm-6"  style="margin-top: 20px" >
+              <div class="call" style="background-image:url(img/peter.jpg);"></div>
+              <div class="call-text">
+                <p>Peter Denton</p>
+                  <p>Bass guitar</p>
+              </div>
+           </div>
+           <div class="col-md-3 col-sm-6"  style="margin-top: 20px">
+            <div class="call" style="background-image:url(img/alexis.jpg);"></div>
+            <div class="call-text">
+                <p>Alexis Nuñez</p>
+                  <p>Drums</p>
+              </div>
+           </div>
+          </div>
+        </div>
+    </div>
+  </div>
+</section>
+<section class="section">
+    <div class="cover">   
+    </div>
+  </section>
+<section class="section  " id="songs">
+  <div class="container ">
+    <div class="post5">
+    <h3 class="text-center">The Kooks</h3>
+     <p class="band text-center">Listen Your Favorite Songs!</p>
+    <div class="column add-bottom ">
+        <div id="mainwrap">
+            <div id="nowPlay">
+                <span class="left" id="npAction">Paused...</span>
+                <span class="right" id="npTitle"></span>
+            </div>
+            <div id="audiowrap">
+                <div id="audio0">
+                    <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
+                </div>
+                <div id="tracks">
+                    <a id="btnPrev">&larr;</a>
+                    <a id="btnNext">&rarr;</a>
+                </div>
+            </div>
+            <div id="plwrap">
+                <ul id="plList"></ul>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+</section>
+<section class="section border " id="potos">
+  <div class="post2">
+   <h3 class="text-center">Photos</h3>
+   <p class="band text-center">See Pictures!</p>
+  <div class="row" >
+          <div  class="col-md-4 col-sm-6 zoom"  >
+              <img class="bandpoto" src="img/4.jpg"  alt="kooks">
+          </div>  
+          <div  class="col-md-4 col-sm-6 zoom"  >
+              <img class="bandpoto" src="img/6.jpg"  alt="kooks">
+          </div>  
+          <div  class="col-md-4 col-sm-6 zoom" >
+             <img  class="bandpoto" src="img/7.jpg"  alt="kooks">
+          </div>  
+          <div class="col-md-4 col-sm-6 zoom" >
+              <img  class="bandpoto " src="img/01.jpg"  alt="kooks">
+          </div>  
+          <div class="col-md-4 col-sm-6 zoom" >
+              <img  class="bandpoto " src="img/2.jpg"  alt="kooks">
+          </div>  
+          <div class="col-md-4 col-sm-6 zoom" >
+             <img  class="bandpoto" src="img/3.jpg"  alt="kooks">
+          </div>  
+        </div>
+  </div>
+  </div>
+</section>
+<section class="section bg-color" id="tour">
+  <div class="container text-center">
+    <div class="post3">
+    <h3 class="text-white">TOUR DATES</h3>
+     <p class="band">Remember to book your tickets!</p>
+     <div class="tour container"  >
+      <a href="https://tourdates.bandsintown.com/event/19568760?came_from=242&affil_code=js_thekooks.com&app_id=js_thekooks.com&style=eyJ0ZXh0Q29sb3IiOiIjRkZGRkZGIiwibGlua0NvbG9yIjoiI0ZGRkZGRiIsInBvcHVwQmFja2dyb3VuZENvbG9yIjoiIzAwMDAwMCIsImxpbmtUZXh0Q29sb3IiOiIjMDAwMDAwIiwiZm9udCI6IidoZWx2ZXRpY2EnLCAnYXJpYWwnLCBzYW5zLXNlcmlmIn0%3D&artist=the+kooks&language=en&artist_id=2127">
+        <div class="row text1 ">
+          <div class="col-md-2">
+              DEC 30
+          </div>  
+          <div class="col-md-3">
+              FALLS FESTIVAL
+          </div>  
+          <div class="col-md-4">
+             LORNE, AUSTRALIA
+          </div>  
+          <div class="col-md-3">
+             <button class="btn btn-secondary"> TICKETS & MORE</button>
+          </div>  
+        </div>
+        </a>
+        <a href="https://tourdates.bandsintown.com/event/19568768?came_from=242&affil_code=js_thekooks.com&app_id=js_thekooks.com&style=eyJ0ZXh0Q29sb3IiOiIjRkZGRkZGIiwibGlua0NvbG9yIjoiI0ZGRkZGRiIsInBvcHVwQmFja2dyb3VuZENvbG9yIjoiIzAwMDAwMCIsImxpbmtUZXh0Q29sb3IiOiIjMDAwMDAwIiwiZm9udCI6IidoZWx2ZXRpY2EnLCAnYXJpYWwnLCBzYW5zLXNlcmlmIn0%3D&artist=the+kooks&language=en&artist_id=2127">
+        <div class="row text1 ">
+          <div class="col-md-2">
+              JAN 02, 2018
+          </div>  
+          <div class="col-md-3">
+              FALLS FESTIVAL
+          </div>  
+          <div class="col-md-4">
+             BYRON BAY, AUSTRALIA
+          </div>  
+          <div class="col-md-3" >
+            <button class="btn btn-secondary"> TICKETS & MORE</button>
+          </div>  
+        </div>
+        </a>
+          <a href="https://tourdates.bandsintown.com/event/19568768?came_from=242&affil_code=js_thekooks.com&app_id=js_thekooks.com&style=eyJ0ZXh0Q29sb3IiOiIjRkZGRkZGIiwibGlua0NvbG9yIjoiI0ZGRkZGRiIsInBvcHVwQmFja2dyb3VuZENvbG9yIjoiIzAwMDAwMCIsImxpbmtUZXh0Q29sb3IiOiIjMDAwMDAwIiwiZm9udCI6IidoZWx2ZXRpY2EnLCAnYXJpYWwnLCBzYW5zLXNlcmlmIn0%3D&artist=the+kooks&language=en&artist_id=2127">
+        <div class="row text1 ">
+          <div class="col-md-2">
+              JAN 18, 2018
+          </div>  
+          <div class="col-md-3">
+              OLYMPIA
+          </div>  
+          <div class="col-md-4">
+             DUBLIN, IRELAND
+          </div>  
+          <div class="col-md-3">
+             <button class="btn btn-secondary"> TICKETS & MORE</button>
+          </div>  
+        </div>
+        </a>
+        <a href="https://tourdates.bandsintown.com/event/20210512?came_from=242&affil_code=js_thekooks.com&app_id=js_thekooks.com&style=eyJ0ZXh0Q29sb3IiOiIjRkZGRkZGIiwibGlua0NvbG9yIjoiI0ZGRkZGRiIsInBvcHVwQmFja2dyb3VuZENvbG9yIjoiIzAwMDAwMCIsImxpbmtUZXh0Q29sb3IiOiIjMDAwMDAwIiwiZm9udCI6IidoZWx2ZXRpY2EnLCAnYXJpYWwnLCBzYW5zLXNlcmlmIn0%3D&artist=the+kooks&language=en&artist_id=2127">
+        <div class="row text1 ">
+          <div class="col-md-2">
+              JAN 27, 2018
+          </div>  
+          <div class="col-md-3">
+              BARBY
+          </div>  
+          <div class="col-md-4">
+             TEL AVIV-YAFO, ISRAEL
+          </div>  
+          <div class="col-md-3">
+            <button class="btn btn-secondary"> TICKETS & MORE</button>
+          </div>  
+        </div>
+        </a>
+          <a href="https://tourdates.bandsintown.com/event/18581081?came_from=242&affil_code=js_thekooks.com&app_id=js_thekooks.com&style=eyJ0ZXh0Q29sb3IiOiIjRkZGRkZGIiwibGlua0NvbG9yIjoiI0ZGRkZGRiIsInBvcHVwQmFja2dyb3VuZENvbG9yIjoiIzAwMDAwMCIsImxpbmtUZXh0Q29sb3IiOiIjMDAwMDAwIiwiZm9udCI6IidoZWx2ZXRpY2EnLCAnYXJpYWwnLCBzYW5zLXNlcmlmIn0%3D&artist=the+kooks&language=en&artist_id=2127">
+        <div class="row text1 ">
+          <div class="col-md-2">
+              MAY 21, 2018
+          </div>  
+          <div class="col-md-3">
+              HOUSE OF BLUES
+          </div>  
+          <div class="col-md-4">
+             BOSTON, MA
+          </div>  
+          <div class="col-md-3">
+             <button class="btn btn-secondary"> TICKETS & MORE</button>
+          </div>  
+        </div>
+        </a>
+           <a href="https://tourdates.bandsintown.com/event/18581081?came_from=242&affil_code=js_thekooks.com&app_id=js_thekooks.com&style=eyJ0ZXh0Q29sb3IiOiIjRkZGRkZGIiwibGlua0NvbG9yIjoiI0ZGRkZGRiIsInBvcHVwQmFja2dyb3VuZENvbG9yIjoiIzAwMDAwMCIsImxpbmtUZXh0Q29sb3IiOiIjMDAwMDAwIiwiZm9udCI6IidoZWx2ZXRpY2EnLCAnYXJpYWwnLCBzYW5zLXNlcmlmIn0%3D&artist=the+kooks&language=en&artist_id=2127">
+        <div class="row text1 ">
+          <div class="col-md-2">
+             MAY 22, 2018
+
+          </div>  
+          <div class="col-md-3">
+             TERMINAL 5
+          </div>  
+          <div class="col-md-4">
+             NEW YORK, NY
+          </div>  
+          <div class="col-md-3">
+             <button class="btn btn-secondary"> TICKETS & MORE</button>
+          </div>  
+        </div>
+        </a>
+         <a href="https://tourdates.bandsintown.com/event/18581069?came_from=242&affil_code=js_thekooks.com&app_id=js_thekooks.com&style=eyJ0ZXh0Q29sb3IiOiIjRkZGRkZGIiwibGlua0NvbG9yIjoiI0ZGRkZGRiIsInBvcHVwQmFja2dyb3VuZENvbG9yIjoiIzAwMDAwMCIsImxpbmtUZXh0Q29sb3IiOiIjMDAwMDAwIiwiZm9udCI6IidoZWx2ZXRpY2EnLCAnYXJpYWwnLCBzYW5zLXNlcmlmIn0%3D&artist=the+kooks&language=en&artist_id=2127">
+        <div class="row text1 ">
+          <div class="col-md-2">
+             MAY 25, 2018
+          </div>  
+          <div class="col-md-3">
+             LINCOLN THEATRE
+          </div>  
+          <div class="col-md-4">
+             WASHINGTON, DC
+          </div>  
+          <div class="col-md-3">
+            <button class="btn btn-secondary"> TICKETS & MORE</button>
+          </div>  
+        </div>
+        </a>
+     </div>
+     </div>
+</div>
+</section>
+<section class="section"  id="contact">
+  <div class="container ">
+    <div class="post4">
+    <h3 class="text-center">Contact</h3>
+        <p class="band text-center">Contact me </p>
+        <div class="row">
+    <div class="col-md-4">
+       <div class="contact-text">
+        <p>About</p>
+          <p><i class="fa fa-map-marker" aria-hidden="true"></i>Tbilisi,Georgia</p>
+           <p><i class="fa fa-mobile" aria-hidden="true"></i>Phone:+995 598 722 335</p>
+           <p><i class="fa fa-envelope" aria-hidden="true"></i>Email:nokakipiani93@gmail.com</p>
+          </div>
+        </div>
+    <div class="col-md-8">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+      <br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button class="btn pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</section>
+<footer class="footer">
+ 
+  <div class="text-center" >
+   <a class="social" href="https://www.facebook.com/thekooksofficial/"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+    <a class="social" href="https://www.youtube.com/user/thekooksofficial"><i class="fa fa-youtube" aria-hidden="true"></i></a>
+    <a class="social" href="https://www.linkedin.com/company/kooks-custom-headers"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+   <a class="social" href="https://www.instagram.com/thekooksmusic/"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+    <p style="color: #ffffff">Created By Noka Kipiani For Geolab</p>
+    </div>
+    </footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+   <script src="js/script.js"></script>
+   <script src="scroll-effects/assets/viewportchecker.js"></script>
+
+
+
+</body>
+</html>
