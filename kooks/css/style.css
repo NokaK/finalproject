@@ -1,3 +1,6 @@
+body {
+	overflow-x: hidden;
+}
 .logo {
 	width: 90px;
 }
@@ -97,6 +100,7 @@ a:hover{
 .call-text:hover {
 	opacity: 1;
 	transform:scale(1.0,1.1);
+	cursor: pointer;
 
 
 	/*border:15px solid #2d2d30;*/
@@ -105,7 +109,7 @@ a:hover{
 .cover {
 	background-image: url(../img/cover.jpg);
     width: 100%;
-    min-height: 400px;
+    min-height: 450px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
